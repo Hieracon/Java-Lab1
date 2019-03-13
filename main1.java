@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
-import lab1.CaineCuPete;
-import lab1.CaineFaraPete;
+import lab1.*;
 
 public class main1
 {
