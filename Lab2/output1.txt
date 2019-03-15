@@ -1,0 +1,8 @@
+Dreptunghi:
+Aria = 110.0
+Perimetrul = 42.0
+
+Datele de intrare sunt:
+Dreptunghi
+10
+11

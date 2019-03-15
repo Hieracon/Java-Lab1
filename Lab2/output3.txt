@@ -1,0 +1,7 @@
+Cerc:
+Aria = 12.56
+Perimetrul = 12.56
+
+Datele de intrare sunt:
+Cerc
+2
