@@ -1,7 +1,0 @@
-Patrat:
-Aria = 169.0
-Perimetrul = 52.0
-
-Datele de intrare sunt:
-Patrat
-13
