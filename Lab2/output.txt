@@ -1,0 +1,32 @@
+Dreptunghi
+Aria = 110.0
+Perimetrul = 42.0
+
+Datele de intrare sunt: 
+Dreptunghi
+10
+11
+
+Patrat:
+Aria = 169.0
+Perimetrul = 52.0
+
+Datele de intrare sunt:
+Patrat
+13
+
+Cerc:
+Aria = 12.56
+Perimetrul = 12.56
+
+Datele de intrare sunt:
+Cerc
+2
+
+Patrat:
+Aria = 16.0
+Perimetrul = 16.0
+
+Datele de intrare sunt:
+Patrat
+4

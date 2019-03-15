@@ -22,20 +22,21 @@ public class Main1 {
 					Dreptunghi obj1 = new Dreptunghi();
 					
 					try {
-						FileWriter fw = new FileWriter("src/output1.txt");
-						PrintWriter pw = new PrintWriter(fw);
+						FileWriter fw = new FileWriter("src/output.txt",true);
 						
-						pw.println(data.elementAt(0) + ":");
-						pw.println("Aria = " + obj1.aria(data));
-						pw.println("Perimetrul = " + obj1.perimetru(data));
-						pw.println();
-						pw.println("Datele de intrare sunt:");
+						
+						fw.write(data.elementAt(0) + "\n");
+						fw.write("Aria = " + obj1.aria(data) + "\n");
+						fw.write("Perimetrul = " + obj1.perimetru(data) + "\n");
+						fw.write("\n");
+						fw.write("Datele de intrare sunt: \n");
 						for(int i = 0; i < data.size(); ++i) {
-							pw.println(data.elementAt(i));
+							fw.write(data.elementAt(i) + "\n");
 						}
+						fw.write("\n");
 						
 						data.clear();
-						pw.close();
+						fw.close();
 					}
 					catch(Exception e) {
 						System.out.println("no se pueda");
@@ -49,20 +50,21 @@ public class Main1 {
 						Patrat obj2 = new Patrat();
 						
 						try {
-							FileWriter fw = new FileWriter("src/output2.txt");
-							PrintWriter pw = new PrintWriter(fw);
+							FileWriter fw = new FileWriter("src/output.txt",true);
 							
-							pw.println(data.elementAt(0) + ":");
-							pw.println("Aria = " + obj2.aria(data));
-							pw.println("Perimetrul = " + obj2.perimetru(data));
-							pw.println();
-							pw.println("Datele de intrare sunt:");
+							
+							fw.write(data.elementAt(0) + ":\n");
+							fw.write("Aria = " + obj2.aria(data) + "\n");
+							fw.write("Perimetrul = " + obj2.perimetru(data) + "\n");
+							fw.write("\n");
+							fw.write("Datele de intrare sunt:\n");
 							for(int i = 0; i < data.size(); ++i) {
-								pw.println(data.elementAt(i));
+								fw.write(data.elementAt(i) + "\n");
 							}
+							fw.write("\n");
 							
 							data.clear();
-							pw.close();
+							fw.close();
 						}
 						catch(Exception e) {
 							System.out.println("no se pueda");
@@ -76,20 +78,21 @@ public class Main1 {
 							Cerc obj3 = new Cerc();
 							
 							try {
-								FileWriter fw = new FileWriter("src/output3.txt");
-								PrintWriter pw = new PrintWriter(fw);
+								FileWriter fw = new FileWriter("src/output.txt",true);
 								
-								pw.println(data.elementAt(0) + ":");
-								pw.println("Aria = " + obj3.aria(data));
-								pw.println("Perimetrul = " + obj3.perimetru(data));
-								pw.println();
-								pw.println("Datele de intrare sunt:");
+								
+								fw.write(data.elementAt(0) + ":\n");
+								fw.write("Aria = " + obj3.aria(data) + "\n");
+								fw.write("Perimetrul = " + obj3.perimetru(data) + "\n");
+								fw.write("\n");
+								fw.write("Datele de intrare sunt:\n");
 								for(int i = 0; i < data.size(); ++i) {
-									pw.println(data.elementAt(i));
+									fw.write(data.elementAt(i) + "\n");
 								}
+								fw.write("\n");
 								
 								data.clear();
-								pw.close();
+								fw.close();
 							}
 							catch(Exception e) {
 								System.out.println("no se pueda");
