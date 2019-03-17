@@ -21,27 +21,7 @@ public class Main1 {
 					
 					Dreptunghi obj1 = new Dreptunghi();
 					
-					try {
-						FileWriter fw = new FileWriter("src/output.txt",true);
-						
-						
-						fw.write(data.elementAt(0) + "\n");
-						fw.write("Aria = " + obj1.aria(data) + "\n");
-						fw.write("Perimetrul = " + obj1.perimetru(data) + "\n");
-						fw.write("\n");
-						fw.write("Datele de intrare sunt: \n");
-						for(int i = 0; i < data.size(); ++i) {
-							fw.write(data.elementAt(i) + "\n");
-						}
-						fw.write("\n");
-						
-						data.clear();
-						fw.close();
-					}
-					catch(Exception e) {
-						System.out.println("no se pueda");
-						e.printStackTrace();
-					}
+					obj1.display(data);
 				}
 				else {
 					if(data.elementAt(0).equals("Patrat")) {
@@ -49,27 +29,7 @@ public class Main1 {
 						
 						Patrat obj2 = new Patrat();
 						
-						try {
-							FileWriter fw = new FileWriter("src/output.txt",true);
-							
-							
-							fw.write(data.elementAt(0) + ":\n");
-							fw.write("Aria = " + obj2.aria(data) + "\n");
-							fw.write("Perimetrul = " + obj2.perimetru(data) + "\n");
-							fw.write("\n");
-							fw.write("Datele de intrare sunt:\n");
-							for(int i = 0; i < data.size(); ++i) {
-								fw.write(data.elementAt(i) + "\n");
-							}
-							fw.write("\n");
-							
-							data.clear();
-							fw.close();
-						}
-						catch(Exception e) {
-							System.out.println("no se pueda");
-							e.printStackTrace();
-						}
+						obj2.display(data);
 					}
 					else {
 						if(data.elementAt(0).equals("Cerc")){
@@ -77,29 +37,9 @@ public class Main1 {
 							
 							Cerc obj3 = new Cerc();
 							
-							try {
-								FileWriter fw = new FileWriter("src/output.txt",true);
-								
-								
-								fw.write(data.elementAt(0) + ":\n");
-								fw.write("Aria = " + obj3.aria(data) + "\n");
-								fw.write("Perimetrul = " + obj3.perimetru(data) + "\n");
-								fw.write("\n");
-								fw.write("Datele de intrare sunt:\n");
-								for(int i = 0; i < data.size(); ++i) {
-									fw.write(data.elementAt(i) + "\n");
-								}
-								fw.write("\n");
-								
-								data.clear();
-								fw.close();
-							}
-							catch(Exception e) {
-								System.out.println("no se pueda");
-								e.printStackTrace();
-							}
+							obj3.display(data);
 						}
-				}
+					}
 				}
 				
 				System.out.println(data);

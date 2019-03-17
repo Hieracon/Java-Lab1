@@ -16,4 +16,6 @@ public class Cerc extends Punct {
 		
 		return 2 * 3.14 * m_raza;
 	}
+	
+	
 }

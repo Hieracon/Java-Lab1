@@ -1,6 +1,6 @@
 package lab2;
 
-import java.util.*;
+import java.util.Vector;
 
 public class Dreptunghi extends Punct {
 	private double m_lungime;
