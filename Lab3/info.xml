@@ -1,0 +1,29 @@
+<?xml version = "1.0"?>
+<data>
+   <shape>
+      <nume>Dreptunghi</nume>
+      <lungime>10</lungime>
+      <latime>15</latime>>
+   </shape>
+   
+   <shape>
+      <nume>Patrat</nume>
+      <latura>6</latura>
+   </shape>
+   
+   <shape>
+      <nume>Cerc</nume>
+      <raza>2</raza>
+   </shape>
+   
+   <shape>
+      <nume>Dreptunghi</nume>
+      <lungime>2</lungime>
+      <latime>7</latime>>
+   </shape>
+   
+   <shape>
+      <nume>Patrat</nume>
+      <latura>8</latura>
+   </shape>
+</data>
